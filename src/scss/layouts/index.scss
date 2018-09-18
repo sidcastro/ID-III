@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+h1 {
+  font-family: 'Abel', sans-serif;;
+  text-align: center;
+}
+
+.banner {
+  font-family: 'Abel', sans-serif;
+  height: 400px;
+  background-image: url("dist/images/subway.jpg");
+  .slogan {
+    position: absolute;
+    border: $standard-border;
+    top: 150px;
+    left: 25%;
+    width: 50%;
+    height: 250px;
+    text-align: center;
+    background-color: $translucent-white;
+    span {
+      font-size: 24px;
+      line-height: 100px;
+    }
+    .description {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  border: {
+    top: $standard-border;
+    bottom: $standard-border;
+  }
+}
+
+.container {
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  .icon {
+    display: inline-block;
+    margin: 3%;
+    border: $standard-border;
+    font-size: 32px;
+    width: $icon-square-length;
+    height: $icon-square-length;
+    padding-top: 50px;
+    &--small {
+      font-size: 14px;
+      margin: 5%;
+    }
+  }
+  img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
