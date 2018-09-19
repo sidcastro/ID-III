@@ -5,13 +5,24 @@ h1 {
   text-align: center;
 }
 
+.logo-size {
+  width: 55px;
+  height: 55px;
+  padding-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .banner {
   font-family: 'Abel', sans-serif;
   height: 400px;
-  background-image: url("dist/images/subway.jpg");
+  background-image: url("dist/images/turnstile.jpg");
+  background-size: cover;
+  background-position: center;
   .slogan {
     position: absolute;
-    border: $standard-border;
+    // border: $standard-border;
     top: 150px;
     left: 25%;
     width: 50%;
@@ -46,7 +57,7 @@ h1 {
     padding-top: 50px;
     &--small {
       font-size: 14px;
-      margin: 5%;
+      margin: 7%;
     }
   }
   img {
